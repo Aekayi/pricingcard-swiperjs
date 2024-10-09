@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.container {
+  width: 80%;
+}
+#pricing .pricing-slider {
+  height: 600px;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+.pricing-slide {
+  width: 300px;
+  height: 100%;
+  position: relative;
+}
+.card {
+  position: relative;
+  border-radius: 10px;
+  transition: all 0.7s;
+  user-select: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  /* background: transparent; */
+  opacity: 0.9;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card .price {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.card .price h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Montserrat";
+}
+.card .price .p1 {
+  color: #7ee383;
+}
+.card .price .p2 {
+  color: #bc4cdf;
+}
+.card .price .p3 {
+  color: #fb7890;
+}
+.card .price .p4 {
+  color: cyan;
+}
+.card .price .p5 {
+  color: aquamarine;
+}
+.card .price .p6 {
+  color: #ff7fea;
+}
+.card .price p {
+  color: gray;
+}
+.card .infos {
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  padding: 20px 25px;
+  border-radius: 0 0 10px 10px;
+}
+.card .basic {
+  background: rgba(126, 227, 131, 0.7);
+}
+
+.card .premium1 {
+  background: rgba(188, 76, 223, 0.7);
+}
+.card .ultimate {
+  background: rgba(251, 120, 144, 0.7);
+}
+.card .premium2 {
+  background: rgba(0, 255, 255, 0.7);
+}
+.card .premium3 {
+  background-color: rgba(127, 255, 212, 0.7);
+}
+.card .premium4 {
+  background-color: rgba(255, 127, 234, 0.7);
+}
+.card .infos h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.card .infos span {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  color: white;
+}
+.card .btn {
+  width: 50%;
+  background-color: white;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.card .btn1 {
+  color: #7ee383;
+  box-shadow: 4px 4px 10px rgba(46, 82, 64, 0.5);
+}
+.card .btn2 {
+  color: #bc4cdf;
+  box-shadow: 4px 4px 10px rgba(77, 40, 70, 0.5);
+}
+.card .btn3 {
+  color: #fb7890;
+  box-shadow: 4px 4px 10px rgba(92, 54, 54, 0.5);
+}
+.card .btn4 {
+  color: cyan;
+  box-shadow: 4px 4px 10px rgba(5, 72, 88, 0.5);
+}
+.card .btn5 {
+  color: aquamarine;
+  box-shadow: 4px 4px 10px rgba(5, 49, 47, 0.5);
+}
+.card .btn6 {
+  color: #ff7fea;
+  box-shadow: 4px 4px 10px rgba(82, 10, 66, 0.5);
+}
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
